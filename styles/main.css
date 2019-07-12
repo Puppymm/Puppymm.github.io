@@ -308,7 +308,8 @@ summary {
   }
 }
 body {
-  background: #f8f9fa;
+  background: url('../media/images/bj.jpg') no-repeat;
+  background-size: cover;
   color: #495057;
   font-size: 16px;
 }
@@ -322,10 +323,7 @@ a {
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #7c8280;
-  background-size: cover;
-  background-position: center;
-  background-image: url('../media/images/sidebar-bg.jpg');
+  background: transparent;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
