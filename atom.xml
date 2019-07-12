@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://puppymm.github.io/</id>
     <title>Puppy</title>
-    <updated>2019-07-12T14:14:24.815Z</updated>
+    <updated>2019-07-12T14:22:47.062Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://puppymm.github.io/"/>
     <link rel="self" href="https://puppymm.github.io//atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://puppymm.github.io//images/avatar.png</logo>
     <icon>https://puppymm.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Puppy</rights>
+    <entry>
+        <title type="html"><![CDATA[使用Gridea 的第一天]]></title>
+        <id>https://puppymm.github.io//post/shi-yong-gridea-de-di-yi-tian</id>
+        <link href="https://puppymm.github.io//post/shi-yong-gridea-de-di-yi-tian">
+        </link>
+        <updated>2019-07-12T14:15:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>今天发现了一个新东西他的名字叫Gridea</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>今天发现了一个新东西他的名字叫Gridea</p>
+<!-- more -->
+<p>现在我来试试有什么好玩的东西</p>
+<h1 id="这是标题语法和markdown有点类似">这是标题语法和markdown有点类似</h1>
+<p><strong>这个好像是加粗</strong>
+<em>这个好像是斜体</em></p>
+<pre><code>这个是一个区域
+</code></pre>
+<blockquote>
+<p>这个是什么来着有点忘了</p>
+</blockquote>
+<ul>
+<li>这是列表把好像没玩过</li>
+</ul>
+<ol>
+<li>这是子列表</li>
+<li>子列表2
+<img src="https://puppymm.github.io//post-images/1562941274305.jpg" alt="">
+插入图片</li>
+</ol>
+<!-- more -->
+<p>换行
+<a href="http://www.baidu.com">超链接,我们去百度</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://puppymm.github.io//post/hello-gridea</id>
