@@ -380,7 +380,6 @@ a {
 }
 .post-item {
   display: flex;
-  padding-bottom: 32px;
   margin-bottom: 32px;
   background-color: white;
   padding: 15px;
