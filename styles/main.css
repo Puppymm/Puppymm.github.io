@@ -308,7 +308,8 @@ summary {
   }
 }
 body {
-  background: url('../media/images/bj.jpg') no-repeat;
+  background: url('../media/images/bj.jpg');
+  background-attachment: fixed;
   color: #495057;
   font-size: 16px;
 }
@@ -367,6 +368,7 @@ a {
 }
 .sidebar .bottom-container a {
   color: #fff;
+  display: none;
 }
 .main-container {
   margin-left: 320px;
@@ -380,7 +382,10 @@ a {
   display: flex;
   padding-bottom: 32px;
   margin-bottom: 32px;
-  border-bottom: 1px solid #ced4da;
+  background-color: white;
+  padding: 15px;
+  border-radius: 1.25rem;
+  box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
 }
 .post-item:last-of-type {
   border-bottom: none;
