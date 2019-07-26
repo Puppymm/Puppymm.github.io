@@ -758,8 +758,7 @@ a {
 }
 .about-content .basics {
   width: 100%;
-  height: 18.75rem;
-  background: #fff;
+  background-image: linear-gradient(to left, #c2e59c, #64b3f4);
   border-radius: 10px;
   box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
   padding: 20px;
