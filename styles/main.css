@@ -752,6 +752,42 @@ a {
   font-size: 16px;
   margin: 4px 8px;
 }
+.about-content {
+  width: 100%;
+  height: 100px;
+}
+.about-content .basics {
+  width: 100%;
+  height: 18.75rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.about-content .basics h2 {
+  color: #757575;
+  font-size: 1.35em;
+  font-weight: 400;
+  margin-bottom: 1.571em;
+  font-family: "Quicksand", sans-serif;
+}
+.about-content .basics dl {
+  line-height: 2em;
+}
+.about-content .basics dl dt {
+  float: left;
+  width: 120px;
+  overflow: hidden;
+  clear: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+  color: #010101;
+}
 
       .sidebar .top-container .site-nav {
         color: #212529;
