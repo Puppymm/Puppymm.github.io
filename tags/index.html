@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://puppymm.github.io//favicon.ico?v=1564110606663">
+<link rel="shortcut icon" href="https://puppymm.github.io//favicon.ico?v=1564362922265">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://puppymm.github.io//styles/main.css">
 
@@ -22,6 +22,9 @@
 
 
 
+	<link rel="stylesheet" type="text/css" href="http://www.jq22.com/demo/clockCompass201907010049/clock.css"/>
+	<script src="https://libs.baidu.com/jquery/1.9.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://www.jq22.com/demo/clockCompass201907010049/clock.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
     <div id="app" class="main">
@@ -30,7 +33,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://puppymm.github.io/">
-        <img src="https://puppymm.github.io//images/avatar.png?v=1564110606663" class="site-logo">
+        <img src="https://puppymm.github.io//images/avatar.png?v=1564362922265" class="site-logo">
         <h1 class="site-title">Puppy</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -97,6 +100,11 @@
               <a class="tag" href="https://puppymm.github.io//tag/gridea">Gridea</a>
             
           </div>
+		  <div style="width: 43.75rem; height:43.75rem; position: fixed; top: 50%; left: 60%; transform: translate(-50%,-50%); z-index: -1;">
+			  <ul class="clock" id="helang-clock">
+				<hr>
+			  </ul>
+		  </div>
         </div>
       </div>
     </div>
@@ -122,4 +130,8 @@ var app = new Vue({
 
 
   </body>
+  <script type="text/javascript">
+  	$("#helang-clock").clock();
+	console.log()
+  </script>
 </html>
